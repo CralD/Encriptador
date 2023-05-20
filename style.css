@@ -70,10 +70,10 @@ body{
    gap: 8px;
 
    position: absolute;
-   width: 299px;
+   width: 350px;
    height: 18px;
    left: 240px;
-   top: 780px;
+   top: 750px;
    color: #495057;
    font-size: 18px;
 }
@@ -149,7 +149,7 @@ body{
    width: 800px;
 
    left: 240px;
-   top: 805px;
+   top: 780px;
 
 }
 .botones-individuales{
@@ -174,11 +174,26 @@ body{
    
    height: 67px;
    left: 1335px;
-   margin-top: 805px;
+   margin-top: 780px;
    position: absolute;
    width: 336px;
    display: none;
 }
+footer{
+   display: inline-block;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 150%;   
+   height: 67px;
+   left: 240px;
+   margin-top: 870px;
+   position: absolute;
+   width: 700px;
+   
+}
+
 
 @media screen and (max-width:480px) {
    h1{
