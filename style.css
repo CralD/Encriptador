@@ -195,16 +195,73 @@ footer{
 }
 
 
-@media screen and (max-width:480px) {
-   h1{
-       text-align: center;
+@media screen and (max-width: 480px) {
+   .logo {
+     width: 100px;
+     height: 40px;
+     left: 10px;
+     top: 10px;
    }
-   nav{
-       position: static;
+ 
+   .cuadro-texto {
+      width: 180%;
+      height: 550px;
+      left: 30%;
+      top: 20%;
+      font-size: 200%;
    }
-   .caja,.principal,.mapa-contenido,.contenido-diferenciales,.video{
-       width: auto;
+ 
+   .comentario {
+      width: 150%;
+      left: 50%;
+      top: 95%;
+      font-size: 30px;
    }
-   .lista-diferenciales,.imagendiferencial{
-       width: 100%;
+ 
+   .cuadro-texto2 {
+      width: 170%;
+      height: 80%;
+      left: 35%;
+      top: 110%;
+      font-size: 50px;
+      background-size: 70%;
    }
+ 
+   .comentarioDos {
+      width: 100%;
+      left: -250%;
+      top: 120%;
+      font-size: 25px;
+   }
+ 
+   .comentarioTres {
+      width: 100%;
+      height: 40px;
+      left: -250%;
+      top: 1030px;
+      font-size: 25px;
+   }
+ 
+   .botones {
+      width: 180%;
+      left: 35%;
+      top: 100%;
+   }
+ 
+   .boton-copiar-style {
+      left: 85%;
+      top: 95%;
+   }
+ 
+   footer {
+      
+    width: 200%;
+    left: 30%;
+    top: 100%;
+    font-size: 30px;
+    line-height: 100%;
+      
+   }
+ }
+    
+
